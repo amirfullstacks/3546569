@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Dana';
+    src: url('../font/DanaVF.woff') format('woff'),
+         url('../font/DanaVF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: dana;
+    font-size: 1.2vw;
+}
+
+button {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    position: absolute;
+    top: 0vw;
+    left: 92vw;
+}
+
+.search-windowz {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.search-input{
+    margin-top: 0.3vw;
+    margin-right: 7vw;
+    border: 1px solid #ffffff;
+    background-color: #E0E0E0;
+    border-radius: 5px;
+    width: 45%;
+    padding: 0.7vw;
+    padding-right: 3vw;
+    outline: none;
+    font-family: "Dana";
+    font-size: 1.5vw;
+    transition: box-shadow 0.3s ease-in-out;
+    text-align: end;
+}
+
+.search {
+    position: absolute;
+    top: 1.6vw;
+    left: 89.6vw;
+}
+
+.login {
+    position: absolute;
+    top: 1vw;
+    left: 9vw;
+    margin: 0.011111111vw;
+    padding: 1vw;
+    padding-right: 3vw;
+    border: 1px solid #BDBDBD;
+    border-radius: 8px;
+}
+
+.icon {
+    position: absolute;
+    top: 0.9999vw;
+    left: 10.5vw;
+    margin-right: 3vw;
+}
+
+.shop {
+    position: absolute;
+    top: 23px;
+    left: 30px;
+}
+
+@media (min-width:1100px) {
+    .icon {
+        display: none;
+    }
+}
+
+@media (max-width:950px) {
+    .icon {
+        display: none;
+    }
+    .login {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .search-input {
+        display: none;
+    }
+    .search-windowz {
+        display: none;
+    }
+    .shop {
+        display: none;
+    }
+}
